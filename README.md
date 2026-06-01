@@ -175,10 +175,10 @@ Webcam Frame
 <!-- Add your output screenshots here -->
 
 ### Tactical GUI with Active Detection
-![GUI Active Detection](assets/surveillance_demo.png)
+![GUI Active Detection](assets/Screenshot%202026-05-05%20015220.png)
 
 ### Radar with Multiple Targets
-![Radar View](assets/radar_view.png)
+![Radar View](assets/Screenshot%202026-05-18%20013857.png)
 
 ---
 
