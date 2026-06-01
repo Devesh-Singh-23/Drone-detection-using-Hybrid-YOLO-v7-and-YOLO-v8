@@ -3,7 +3,7 @@
 Real-time drone detection and classification using a **YOLOv7 → YOLOv8** cascaded deep learning pipeline with a military-themed PyQt5 GUI featuring tactical radar, threat assessment, and audio alerts.
 
 <!-- Add your screenshot here -->
-![Surveillance GUI](assets/surveillance_demo.png)
+![Surveillance GUI](assets\Screenshot 2026-05-05 015220.png)
 
 ---
 
@@ -27,7 +27,7 @@ Real-time drone detection and classification using a **YOLOv7 → YOLOv8** casca
 ## Demo
 
 <!-- Add your demo images/GIFs here -->
-![Detection Example](assets/detection_example.png)
+![Detection Example](assets\Screenshot 2026-05-18 013857.png)
 
 ---
 
