@@ -49,8 +49,8 @@ from utils.torch_utils import select_device
 from ultralytics import YOLO
 
 # ============================= CONFIGURATION ================================
-YOLOV7_WEIGHTS   = os.path.join(YOLOV7_DIR, "runs", "train", "yolov7x_cpu", "weights", "best.pt")
-YOLOV8_CLS_WEIGHTS = os.path.join(PROJECT_ROOT, "runs", "classify", "drone_classification_v3_medium", "weights", "best.pt")
+YOLOV7_WEIGHTS   = os.path.join(PROJECT_ROOT, "weights", "yolov7_best.pt")
+YOLOV8_CLS_WEIGHTS = os.path.join(PROJECT_ROOT, "weights", "yolov8_cls_best.pt")
 
 DETECT_IMG_SIZE   = 640
 CLASSIFY_IMG_SIZE = 224

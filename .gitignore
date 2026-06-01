@@ -28,25 +28,28 @@ Desktop.ini
 .DS_Store
 ._*
 
-# ─── Model Weights (too large for GitHub) ───
+# ─── Model Weights (exclude all by default) ───
 *.pt
 *.pth
 *.onnx
 *.engine
 *.trt
 
+# ─── Include the deployed weights ───
+!weights/*.pt
+
 # ─── Dataset & Archives ───
 archive/
 archive.zip
 *.zip
 
-# ─── Training Runs (logs, checkpoints, outputs) ───
+# ─── Training Runs ───
 runs/
 
-# ─── YOLOv7 Submodule / External Repo ───
+# ─── YOLOv7 Repo ───
 yolov7/
 
-# ─── Jupyter Notebooks (large cell outputs) ───
+# ─── Jupyter Notebooks ───
 *.ipynb
 .ipynb_checkpoints/
 
