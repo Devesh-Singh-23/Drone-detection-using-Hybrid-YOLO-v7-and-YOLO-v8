@@ -1,0 +1,15 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLO Models
+ultralytics>=8.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+
+# GUI
+PyQt5>=5.15.0
+
+# Numerical
+numpy>=1.24.0

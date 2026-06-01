@@ -1,0 +1,55 @@
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ─── Virtual Environment ───
+.venv/
+venv/
+env/
+
+# ─── IDE / Editor ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ─── OS Files ───
+Thumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+# ─── Model Weights (too large for GitHub) ───
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+
+# ─── Dataset & Archives ───
+archive/
+archive.zip
+*.zip
+
+# ─── Training Runs (logs, checkpoints, outputs) ───
+runs/
+
+# ─── YOLOv7 Submodule / External Repo ───
+yolov7/
+
+# ─── Jupyter Notebooks (large cell outputs) ───
+*.ipynb
+.ipynb_checkpoints/
+
+# ─── Miscellaneous ───
+*.log
+*.tmp
